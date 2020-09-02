@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
+body, div, p, span, button{
+	font-weight: bold;
+	
+}
 :root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
+	--dark-color-a: #4d0f0a;
+	--dark-color-b: #726d6d;
 	--light-color: #e6e9ff;
 	--success-color: #5cb85c;
 	--error-color: #d9534f;
@@ -14,11 +16,9 @@
 	padding: 0;
 }
 
-body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+body {	
 	background: var(--light-color);
-	margin: 20px;
+	margin: 0.1em;
 }
 
 ul {
@@ -43,7 +43,7 @@ a {
 .chat-container {
 	max-width: 1100px;
 	background: #fff;
-	margin: 30px auto;
+	margin: auto;
 	overflow: hidden;
 }
 
@@ -52,7 +52,7 @@ a {
 	color: #fff;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-	padding: 15px;
+	padding: 0.1em;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -66,7 +66,7 @@ a {
 .chat-sidebar {
 	background: var(--dark-color-b);
 	color: #fff;
-	padding: 20px 20px 60px;
+	padding: 0.2em;
 	overflow-y: scroll;
 }
 
@@ -82,7 +82,7 @@ a {
 }
 
 .chat-sidebar ul li {
-	padding: 10px 0;
+	padding: 0.4em 0;
 }
 
 .chat-messages {
@@ -187,4 +187,12 @@ a {
 	.chat-sidebar {
 		display: none;
 	}
+}
+#unDado{
+	margin-bottom: 0.5em;
+}
+#main{
+	background: #efefef;
+    padding: 0.2em;
+    border: 1px solid black;
 }

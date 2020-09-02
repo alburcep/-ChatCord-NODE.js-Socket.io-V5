@@ -1,5 +1,5 @@
 {
-  "name": "chatRoomv5",
+  "name": "chatroomv5",
   "version": "1.0.0",
   "description": "Realtime chat app with rooms",
   "main": "server.js",
@@ -18,5 +18,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alburcep/v5_01.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alburcep/v5_01/issues"
+  },
+  "homepage": "https://github.com/alburcep/v5_01#readme"
 }
