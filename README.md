@@ -6,6 +6,6 @@ Pending: Mejorar interfaz
 npm install
 npm run dev
 
-Go to localhost:3000
+Ir a localhost:3000
 ```
 
